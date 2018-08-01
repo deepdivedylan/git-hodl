@@ -1,6 +1,8 @@
 pragma solidity ^0.4.0;
 
-contract Person {
+import "browser/shade.sol";
+
+contract Person is Shade {
     string internal name;
     bool internal isProneToCrying;
     
